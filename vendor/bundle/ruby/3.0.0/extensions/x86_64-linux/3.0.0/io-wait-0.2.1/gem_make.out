@@ -1,0 +1,18 @@
+current directory: /home/trevor/RubymineProjects/RORC3M2/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 -r ./siteconf20220314-10357-cbj9ed.rb extconf.rb
+checking for rb_io_wait()... yes
+checking for sys/ioctl.h... yes
+checking for FIONREAD in sys/ioctl.h,sys/ioctl.h... yes
+creating Makefile
+
+current directory: /home/trevor/RubymineProjects/RORC3M2/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= clean
+
+current directory: /home/trevor/RubymineProjects/RORC3M2/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\=
+compiling wait.c
+linking shared-object io/wait.so
+
+current directory: /home/trevor/RubymineProjects/RORC3M2/vendor/bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 wait.so ./.gem.20220314-10357-as9drz/io
